@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("demo.wunder.org.youwontwork", appContext.getPackageName());
+        assertEquals("demo.wunder.org.WunderOnlineTestDemo", appContext.getPackageName());
     }
 }
